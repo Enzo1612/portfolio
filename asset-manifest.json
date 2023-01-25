@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03d6abc2.css",
+    "main.js": "/static/js/main.9dc5e631.js",
+    "static/media/comingsoon.jpg": "/static/media/comingsoon.626da7b52a4c15b72328.jpg",
+    "static/media/profilePicture.jpg": "/static/media/profilePicture.a2addeaae68d8919202d.jpg",
+    "static/media/HangManGame.png": "/static/media/HangManGame.8cf117ff05630c06cf03.png",
+    "static/media/firstpagebackground.svg": "/static/media/firstpagebackground.15663193968d53b9217b.svg",
+    "index.html": "/index.html",
+    "main.03d6abc2.css.map": "/static/css/main.03d6abc2.css.map",
+    "main.9dc5e631.js.map": "/static/js/main.9dc5e631.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03d6abc2.css",
+    "static/js/main.9dc5e631.js"
+  ]
+}
