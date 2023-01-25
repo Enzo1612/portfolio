@@ -1,0 +1,33 @@
+:root {
+  --black: #181818;
+  --primary: #14213d;
+  --secondary: #fca311;
+  --third: #e5e5e5;
+}
+
+#footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerP {
+  font-size: 2rem;
+  color: var(--third);
+}
+
+#footerTextContainer {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#copyrightIcon {
+  width: 2vw;
+  height: 2vh;
+  color: var(--third);
+}

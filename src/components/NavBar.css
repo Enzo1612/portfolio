@@ -1,0 +1,52 @@
+:root {
+  --black: #181818;
+  --primary: #14213d;
+  --secondary: #fca311;
+  --third: #e5e5e5;
+}
+
+#navbar {
+  width: 100vw;
+  height: 15vh;
+  background: linear-gradient(to top, var(--primary) 20%, var(--black));
+  color: var(--secondary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 10vh;
+  top: 0;
+  z-index: 999;
+}
+
+#navbarIcon {
+  height: 10vh;
+  width: 10vw;
+}
+
+#navbarTitle {
+  font-size: 2.5rem;
+  margin-left: 10vw;
+}
+
+#navbarUl {
+  display: flex;
+  gap: 2vw;
+}
+
+.navbarLinks {
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: inset 0 0 0 0 var(--secondary);
+  color: var(--secondary);
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbarLinks:hover {
+  box-shadow: inset 100px 0 0 0 var(--secondary);
+  color: var(--primary);
+}

@@ -1,0 +1,39 @@
+:root {
+  --black: #181818;
+  --primary: #14213d;
+  --secondary: #fca311;
+  --third: #e5e5e5;
+}
+
+#profile {
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileCenter {
+  display: flex;
+}
+
+#profileH4 {
+  align-self: center;
+  margin-top: 3vh;
+  font-size: 2.5rem;
+}
+
+#profilePicture {
+  margin: 10vh 5vw 0 5vw;
+  width: 40vw;
+}
+
+#profileP {
+  margin: 10vh 5vw 0 5vw;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+#profileP span {
+  font-weight: 700;
+  color: var(--primary);
+}
