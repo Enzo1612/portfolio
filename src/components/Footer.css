@@ -10,7 +10,8 @@
   height: 10vh;
   background-color: var(--primary);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+
   justify-content: center;
 }
 
