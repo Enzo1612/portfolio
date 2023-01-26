@@ -7,10 +7,10 @@
 
 #skillsContainer {
   width: 100vw;
-  height: 50vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--primary);
 }
@@ -34,7 +34,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 40vh;
+  height: 30vh;
 }
 
 .skillsIcon {
@@ -60,9 +60,20 @@
   animation: reactBounce 8s 6s infinite ease-in;
 }
 
-.skillsIcon:hover {
-  transition: 0.5s;
-  color: var(--secondary);
+.html-icon:hover {
+  color: #e34c26;
+}
+
+.css-icon:hover {
+  color: #264de4;
+}
+
+.javascript-icon:hover {
+  color: #f0db4f;
+}
+
+.react-icon:hover {
+  color: #61dbfb;
 }
 
 .skillsP {
@@ -79,9 +90,24 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--secondary);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
+}
+
+.htmlP::after {
+  background-color: #e34c26;
+}
+
+.cssP::after {
+  background-color: #264de4;
+}
+
+.jsP::after {
+  background-color: #f0db4f;
+}
+
+.reactP::after {
+  background-color: #61dbfb;
 }
 
 .skillsP:hover:after {

@@ -12,19 +12,19 @@ function Skills() {
       <div id="skillsIconContainer">
         <div className="skill" id="hmtlIcon">
           <FaHtml5 className="skillsIcon html-icon" />
-          <p className="skillsP">HTML5</p>
+          <p className="skillsP htmlP">HTML5</p>
         </div>
         <div className="skill" id="cssIcon">
           <FaCss3Alt className="skillsIcon css-icon" />
-          <p className="skillsP">CSS3</p>
+          <p className="skillsP cssP">CSS3</p>
         </div>
         <div className="skill" id="javascriptIcon">
           <SiJavascript className="skillsIcon javascript-icon" />
-          <p className="skillsP">JavaScript</p>
+          <p className="skillsP jsP">JavaScript</p>
         </div>
         <div className="skill" id="reactIcon">
           <FaReact className="skillsIcon react-icon" />
-          <p className="skillsP">React</p>
+          <p className="skillsP reactP">React</p>
         </div>
       </div>
     </div>
