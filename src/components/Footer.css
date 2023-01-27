@@ -17,17 +17,29 @@
 #footerP {
   font-size: 1.5rem;
   color: var(--third);
+  margin-right: 1vw;
 }
 
 #footerTextContainer {
   display: flex;
-  width: 20vw;
-  justify-content: space-between;
+  width: 100vw;
+  justify-content: center;
   align-items: center;
 }
 
 #copyrightIcon {
-  width: 2vw;
-  height: 2vh;
+  width: 4vw;
+  height: 4vh;
   color: var(--third);
+}
+
+@media (max-width: 800px) {
+  #footerP {
+    font-size: 0.8rem;
+  }
+
+  #copyrightIcon {
+    width: 2vw;
+    height: 2vh;
+  }
 }

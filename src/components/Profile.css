@@ -17,7 +17,7 @@
 #profileH4 {
   align-self: center;
   margin: 4vh 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #profilePcontainer {
@@ -26,13 +26,39 @@
 }
 
 #profileP {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   margin: 0 2vw;
   text-align: center;
 }
 
-#profileP span {
-  font-weight: 700;
-  color: var(--primary);
+@media (min-width: 1200) {
+  #profileH4 {
+    font-size: 2.1rem;
+  }
+
+  #profileP {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #profileH4 {
+    font-size: 1rem;
+    margin-bottom: 2vh;
+  }
+
+  #profileP {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #profileH4 {
+    font-size: 0.8rem;
+  }
+
+  #profileP {
+    font-size: 0.5rem;
+  }
 }

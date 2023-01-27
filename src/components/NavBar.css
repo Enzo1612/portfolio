@@ -32,11 +32,11 @@
 }
 
 #navbarE {
-  margin-right: -8vw;
+  transform: translate(30%);
 }
 
 #navbarN {
-  transform: scaleX(-1);
+  transform: scaleX(-1) translate(30%);
 }
 
 #navbarTitle {
@@ -65,4 +65,53 @@
 .navbarLinks:hover {
   box-shadow: inset 100px 0 0 0 var(--secondary);
   color: var(--primary);
+}
+
+#hamburgerMenu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.navbarLi {
+  display: flex;
+  align-items: center;
+}
+
+.navbarLiIcons {
+  display: none;
+  margin-right: 1vw;
+  width: 8vw;
+  height: 4vh;
+}
+
+.hamburgerMenuLines {
+  width: 12vw;
+  height: 0.8vh;
+  background: var(--secondary);
+  border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  #hamburgerMenu {
+    display: flex;
+  }
+
+  #navbarUl {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 15vh;
+    width: 100vw;
+    height: 30vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--black);
+  }
+
+  .navbarLiIcons {
+    display: block;
+  }
 }
