@@ -1,11 +1,15 @@
 import React from "react";
 import "./NavBar.css";
-import { FaLaptopCode } from "react-icons/fa";
+import { TbLetterE } from "react-icons/tb";
+import { TbLetterN } from "react-icons/tb";
 
 function NavBar() {
   return (
     <div id="navbar">
-      <FaLaptopCode id="navbarIcon" />
+      <div className="navbarIconContainer">
+        <TbLetterE className="navbarIcons" id="navbarE" />
+        <TbLetterN className="navbarIcons" id="navbarN" />
+      </div>
       <ul id="navbarUl">
         <li className="navbarLi">
           <a href="#top" className="navbarLinks">

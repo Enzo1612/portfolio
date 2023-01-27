@@ -13,6 +13,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    0.5turn,
+    var(--black),
+    1%,
+    var(--primary),
+    96%,
+    var(--secondary)
+  );
 }
 
 #firstPageText {
@@ -26,12 +34,14 @@
   font-size: 5rem;
   margin-bottom: 5vh;
   animation: entry-up 0.8s ease-in-out;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0), 0px -4px 10px rgba(255, 255, 255, 0.1);
 }
 
 #descriptionH3 {
   font-size: 3.5rem;
   color: var(--secondary);
   animation: entry-down 0.8s ease-in-out;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0), 0px -4px 10px rgba(255, 255, 255, 0.1);
 }
 
 @keyframes entry-up {

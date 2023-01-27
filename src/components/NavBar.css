@@ -19,9 +19,24 @@
   z-index: 999;
 }
 
-#navbarIcon {
+.navbarIconContainer {
+  background-image: url(../background.svg);
+  /* url from https://www.svgbackgrounds.com/ */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbarIcons {
   height: 10vh;
   width: 10vw;
+}
+
+#navbarE {
+  margin-right: -8vw;
+}
+
+#navbarN {
+  transform: scaleX(-1);
 }
 
 #navbarTitle {
@@ -43,6 +58,7 @@
   padding: 0 0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   text-decoration: none;
+  text-shadow: 0px 2px 5px var(--black);
   cursor: pointer;
 }
 

@@ -1,4 +1,3 @@
-import "./App.css";
 import Profile from "./components/Profile";
 import FirstPage from "./components/FirstPage";
 import NavBar from "./components/NavBar";

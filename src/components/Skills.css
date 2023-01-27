@@ -25,7 +25,10 @@
 #skillsTitle {
   margin: 2vh 0;
   font-size: 2rem;
+  font-weight: 600;
   color: var(--secondary);
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 1);
 }
 
 .skill {
@@ -40,8 +43,6 @@
 .skillsIcon {
   height: 10vh;
   width: 10vw;
-  transition: 0.6s;
-  animation: bounce 2s infinite ease-in;
 }
 
 .html-icon {
@@ -60,26 +61,12 @@
   animation: reactBounce 8s 6s infinite ease-in;
 }
 
-.html-icon:hover {
-  color: #e34c26;
-}
-
-.css-icon:hover {
-  color: #264de4;
-}
-
-.javascript-icon:hover {
-  color: #f0db4f;
-}
-
-.react-icon:hover {
-  color: #61dbfb;
-}
-
 .skillsP {
   font-size: 1.5rem;
   font-weight: 600;
   position: relative;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 1);
 }
 
 .skillsP:after {
@@ -118,6 +105,7 @@
 @keyframes htmlBounce {
   8% {
     transform: translateY(-1vh);
+    color: #e34c26;
   }
 
   16% {
@@ -126,12 +114,14 @@
 
   25% {
     transform: translateY(0);
+    color: white;
   }
 }
 
 @keyframes cssBounce {
   8% {
     transform: translateY(-1vh);
+    color: #264de4;
   }
 
   16% {
@@ -140,12 +130,14 @@
 
   25% {
     transform: translateY(0);
+    color: white;
   }
 }
 
 @keyframes javascriptBounce {
   8% {
     transform: translateY(-1vh);
+    color: #f0db4f;
   }
 
   16% {
@@ -154,12 +146,14 @@
 
   25% {
     transform: translateY(0);
+    color: white;
   }
 }
 
 @keyframes reactBounce {
   8% {
     transform: translateY(-1vh);
+    color: #61dbfb;
   }
 
   16% {
@@ -168,5 +162,6 @@
 
   25% {
     transform: translateY(0);
+    color: white;
   }
 }

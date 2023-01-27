@@ -1,8 +1,0 @@
-#firstPage {
-  height: 100vh;
-  background-image: url(./firstpagebackground.svg);
-  /* background by SVGBackgrounds.com */
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
