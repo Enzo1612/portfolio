@@ -6,80 +6,27 @@
 }
 
 #projectsContainer {
+  background-image: url("./assets/projectsBackground.svg");
+  /*background by https://www.svgbackgrounds.com/*/
+  color: var(--third);
+  width: 100vw;
+  padding-bottom: 4vh;
+}
+
+#projectsPresentationContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  height: 70vh;
-  margin-bottom: 15vh;
 }
 
 #projectsTitle {
   font-size: 3rem;
-  margin-top: 5vh;
-  font-weight: 700;
-}
-
-.projectsImagesTitles {
-  margin-bottom: 2vh;
-}
-
-#projectsDescription {
-  margin: 5vh 1vw;
-  text-align: center;
-  font-size: 2rem;
-}
-
-.projectsImagesContainer {
-  width: 100vw;
-  padding: 5vh 5vw;
-  background-color: var(--secondary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.projectImageContainer {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.projectsImages {
-  width: 100%;
-  border-radius: 8px;
-  max-height: 30vh;
-}
-
-.projectTitle {
-  position: relative;
-  color: var(--primary);
-  text-decoration: none;
-  font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 4vh;
 }
 
-.projectTitle:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--primary);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.projectTitle:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.projectsImagesLinks {
-  width: 30vw;
+#projectsPresentation {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 2vh 2vw;
 }

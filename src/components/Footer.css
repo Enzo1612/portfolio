@@ -9,31 +9,78 @@
   width: 100vw;
   height: 10vh;
   background-color: var(--primary);
+  color: var(--third);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 #footerP {
   font-size: 1.5rem;
   color: var(--third);
-  margin-right: 1vw;
 }
 
 #footerTextContainer {
   display: flex;
-  width: 100vw;
   justify-content: center;
   align-items: center;
+  gap: 1vw;
 }
 
-#copyrightIcon {
+.footerIcon {
   width: 4vw;
   height: 4vh;
   color: var(--third);
+  transition: 0.3s;
 }
 
-@media (max-width: 800px) {
+#footerEmailContainer,
+#footerPhoneContainer {
+  display: flex;
+  align-items: center;
+}
+
+#footerLeft {
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+}
+
+#footerPhoneNumber {
+  font-size: 1.5rem;
+}
+
+#footerEmail {
+  font-size: 1.5rem;
+}
+
+.socials .footerIcon:hover {
+  color: var(--secondary);
+}
+
+@media (max-width: 950px) {
+  .footerIcon {
+    width: 2vw;
+    height: 2vh;
+  }
+
+  #footerEmailContainer,
+  #footerPhoneContainer {
+    gap: 1vw;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+
+  #footerPhoneNumber {
+    font-size: 1rem;
+  }
+
+  #footerEmail {
+    font-size: 1rem;
+  }
+
   #footerP {
     font-size: 0.8rem;
   }
@@ -41,5 +88,19 @@
   #copyrightIcon {
     width: 2vw;
     height: 2vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .footerIcon {
+    width: 4vw;
+    height: 4vh;
+  }
+  #footerEmail {
+    font-size: 0.7rem;
+  }
+
+  #footerPhoneNumber {
+    font-size: 0.7rem;
   }
 }
