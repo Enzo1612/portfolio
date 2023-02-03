@@ -14,6 +14,7 @@
   margin: 10vh 4vw;
   background-color: var(--primary);
   border-radius: 5px;
+  position: relative;
 }
 
 .projectTitles {
@@ -64,6 +65,24 @@
   background-repeat: no-repeat;
   border-radius: 8px;
   margin-bottom: 2vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.usedLanguages {
+  position: absolute;
+  top: 1vh;
+  right: 5vw;
+  display: flex;
+  gap: 1vw;
+}
+
+.projectsLanguagesIcons {
+  width: 3vw;
+  height: 3vh;
+}
+
+.hide {
+  display: none;
 }
 
 @media (max-width: 1200px) {
@@ -99,10 +118,29 @@
   .projectDescritptions {
     font-size: 0.8rem;
   }
+
+  .projectContainers {
+    margin: 1vh 0;
+  }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .projectDescritptions {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+  }
+  .projectImages {
+    width: 80vw;
+    height: 20vh;
+    background-position: top;
+  }
+
+  .projectTitles {
+    align-items: flex-start;
+    font-size: 1.3rem;
+  }
+
+  .projectsLanguagesIcons {
+    width: 2vw;
+    height: 2vh;
   }
 }

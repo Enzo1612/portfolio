@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   background: linear-gradient(
     0.5turn,
     var(--black),
@@ -21,6 +22,42 @@
     96%,
     var(--secondary)
   );
+  animation: shadow 1s infinite;
+}
+
+@keyframes shadow {
+  25% {
+    background: linear-gradient(
+      0.5turn,
+      var(--black),
+      1%,
+      var(--primary),
+      96.25%,
+      var(--secondary)
+    );
+  }
+
+  50% {
+    background: linear-gradient(
+      0.5turn,
+      var(--black),
+      1%,
+      var(--primary),
+      96.5%,
+      var(--secondary)
+    );
+  }
+
+  75% {
+    background: linear-gradient(
+      0.5turn,
+      var(--black),
+      1%,
+      var(--primary),
+      96.25%,
+      var(--secondary)
+    );
+  }
 }
 
 #firstPageText {

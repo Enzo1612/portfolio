@@ -1,10 +1,14 @@
 import React from "react";
 import "./Project.css";
+import { FaReact } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 
 function Project(props) {
   return (
     <div className="projectContainers">
-      <a href="https://enzo1612.github.io/hangManGame/" target="blank">
+      <a href={props.projectUrl} target="blank">
         <p className="projectTitles">{props.title}</p>
       </a>
       <p className="projectDescritptions">{props.description}</p>
@@ -27,6 +31,12 @@ function Project(props) {
             backgroundImage: `url(${props.url3})`,
           }}
         ></div>
+      </div>
+      <div className="usedLanguages">
+        <FaHtml5 className="projectsLanguagesIcons" />
+        <FaCss3Alt className="projectsLanguagesIcons" />
+        <SiJavascript className="projectsLanguagesIcons" />
+        <FaReact className={`projectsLanguagesIcons ${props.react}`} />
       </div>
     </div>
   );

@@ -18,6 +18,80 @@ function NavBar() {
     }
   };
 
+  const toggleMenuTop = (e) => {
+    e.preventDefault();
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
+
+    if (menuState === false) {
+      document.getElementById("navbarUlsmall").style.display = "flex";
+      setMenuState(true);
+    } else {
+      document.getElementById("navbarUlsmall").style.display = "none";
+      setMenuState(false);
+    }
+  };
+
+  const toggleMenuProfile = (e) => {
+    e.preventDefault();
+    window.scroll({
+      top: viewportHeight / 1.17,
+      behavior: "smooth",
+    });
+
+    if (menuState === false) {
+      document.getElementById("navbarUlsmall").style.display = "flex";
+      setMenuState(true);
+    } else {
+      document.getElementById("navbarUlsmall").style.display = "none";
+      setMenuState(false);
+    }
+  };
+
+  const toggleMenuProjects = (e) => {
+    e.preventDefault();
+    window.scroll({
+      top: viewportHeight * 1.7,
+      behavior: "smooth",
+    });
+
+    if (menuState === false) {
+      document.getElementById("navbarUlsmall").style.display = "flex";
+      setMenuState(true);
+    } else {
+      document.getElementById("navbarUlsmall").style.display = "none";
+      setMenuState(false);
+    }
+  };
+
+  const viewportHeight = window.innerHeight;
+
+  const goProfile = (e) => {
+    e.preventDefault();
+    window.scroll({
+      top: viewportHeight / 1.17,
+      behavior: "smooth",
+    });
+  };
+
+  const goProjects = (e) => {
+    e.preventDefault();
+    window.scroll({
+      top: viewportHeight * 1.7,
+      behavior: "smooth",
+    });
+  };
+
+  const goTop = (e) => {
+    e.preventDefault();
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div id="navbar">
       <div className="navbarIconContainer">
@@ -26,17 +100,21 @@ function NavBar() {
       </div>
       <ul id="navbarUl">
         <li className="navbarLi">
-          <a href="#top" className="navbarLinks">
+          <a href="#top" className="navbarLinks" onClick={goTop}>
             Accueil
           </a>
         </li>
         <li className="navbarLi">
-          <a href="#descriptionArrowDown" className="navbarLinks">
+          <a
+            href="#descriptionArrowDown"
+            className="navbarLinks"
+            onClick={goProfile}
+          >
             Profil
           </a>
         </li>
         <li className="navbarLi">
-          <a href="#reactIcon" className="navbarLinks">
+          <a href="#reactIcon" className="navbarLinks" onClick={goProjects}>
             Projets
           </a>
         </li>
@@ -45,7 +123,7 @@ function NavBar() {
       <ul id="navbarUlsmall">
         <li className="navbarLi">
           <AiFillHome className="navbarLiIcons" />
-          <a href="#top" className="navbarLinks" onClick={toggleMenu}>
+          <a href="#top" className="navbarLinks" onClick={toggleMenuTop}>
             Accueil
           </a>
         </li>
@@ -54,14 +132,18 @@ function NavBar() {
           <a
             href="#descriptionArrowDown"
             className="navbarLinks"
-            onClick={toggleMenu}
+            onClick={toggleMenuProfile}
           >
             Profil
           </a>
         </li>
         <li className="navbarLi">
           <FaPen className="navbarLiIcons" />
-          <a href="#reactIcon" className="navbarLinks" onClick={toggleMenu}>
+          <a
+            href="#reactIcon"
+            className="navbarLinks"
+            onClick={toggleMenuProjects}
+          >
             Projets
           </a>
         </li>
