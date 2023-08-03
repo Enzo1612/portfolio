@@ -14,7 +14,14 @@ function Footer() {
         </div>
         <div id="footerEmailContainer">
           <AiFillMail className="footerIcon" />
-          <p id="footerEmail">enzonicaise.1612@gmail.com</p>
+          <a
+            href="mailto:enzonicaise.1612@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            id="footerEmail"
+          >
+            enzonicaise.1612@gmail.com
+          </a>
         </div>
         <div className="socials">
           <a href="https://github.com/Enzo1612" target="blank">
