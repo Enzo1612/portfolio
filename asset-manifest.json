@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b9789863.css",
-    "main.js": "/portfolio/static/js/main.7930bd8a.js",
+    "main.js": "/portfolio/static/js/main.566cf8dc.js",
     "static/media/ipTracker3.png": "/portfolio/static/media/ipTracker3.57d09cf014243546c4df.png",
     "static/media/ipTracker1.png": "/portfolio/static/media/ipTracker1.8536a0ec592c11b0d7ff.png",
     "static/media/ipTracker2.png": "/portfolio/static/media/ipTracker2.ff7b78eb975cb1097a2c.png",
@@ -21,10 +21,10 @@
     "static/media/projectsBackground.svg": "/portfolio/static/media/projectsBackground.5aa164b0b0b7e4291233.svg",
     "index.html": "/portfolio/index.html",
     "main.b9789863.css.map": "/portfolio/static/css/main.b9789863.css.map",
-    "main.7930bd8a.js.map": "/portfolio/static/js/main.7930bd8a.js.map"
+    "main.566cf8dc.js.map": "/portfolio/static/js/main.566cf8dc.js.map"
   },
   "entrypoints": [
     "static/css/main.b9789863.css",
-    "static/js/main.7930bd8a.js"
+    "static/js/main.566cf8dc.js"
   ]
 }
