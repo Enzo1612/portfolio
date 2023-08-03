@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9c9c1c51.css",
-    "main.js": "/portfolio/static/js/main.7bf4b8c9.js",
+    "main.css": "/portfolio/static/css/main.b629d575.css",
+    "main.js": "/portfolio/static/js/main.a64dc3e1.js",
     "static/media/ipTracker3.png": "/portfolio/static/media/ipTracker3.57d09cf014243546c4df.png",
     "static/media/ipTracker1.png": "/portfolio/static/media/ipTracker1.8536a0ec592c11b0d7ff.png",
     "static/media/ipTracker2.png": "/portfolio/static/media/ipTracker2.ff7b78eb975cb1097a2c.png",
@@ -17,14 +17,14 @@
     "static/media/countries2.png": "/portfolio/static/media/countries2.6ec290b32a6148c4006d.png",
     "static/media/hangmangame1.png": "/portfolio/static/media/hangmangame1.7d3a0027a31b99c66932.png",
     "static/media/hangmangame3.png": "/portfolio/static/media/hangmangame3.e249f7700670535c603d.png",
-    "static/media/background.svg": "/portfolio/static/media/background.3561b8f17134d722f267.svg",
+    "static/media/firstPageBackground.svg": "/portfolio/static/media/firstPageBackground.99816caae974fceb99f8.svg",
     "static/media/projectsBackground.svg": "/portfolio/static/media/projectsBackground.5aa164b0b0b7e4291233.svg",
     "index.html": "/portfolio/index.html",
-    "main.9c9c1c51.css.map": "/portfolio/static/css/main.9c9c1c51.css.map",
-    "main.7bf4b8c9.js.map": "/portfolio/static/js/main.7bf4b8c9.js.map"
+    "main.b629d575.css.map": "/portfolio/static/css/main.b629d575.css.map",
+    "main.a64dc3e1.js.map": "/portfolio/static/js/main.a64dc3e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c9c1c51.css",
-    "static/js/main.7bf4b8c9.js"
+    "static/css/main.b629d575.css",
+    "static/js/main.a64dc3e1.js"
   ]
 }
