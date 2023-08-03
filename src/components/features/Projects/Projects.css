@@ -1,12 +1,5 @@
-:root {
-  --black: #181818;
-  --primary: #14213d;
-  --secondary: #fca311;
-  --third: #e5e5e5;
-}
-
 #projectsContainer {
-  background-image: url("./assets/projectsBackground.svg");
+  background-image: url(./../../assets/projectsBackground.svg);
   /*background by https://www.svgbackgrounds.com/*/
   color: var(--third);
   width: 100vw;
@@ -25,10 +18,15 @@
 }
 
 #projectsPresentation {
+  word-wrap: break-word;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 500;
   margin: 2vh 2vw;
+  background-color: rgba(130, 98, 81, 0.75);
+  border-radius: 8px;
 }
 
 @media (max-width: 500px) {
@@ -37,7 +35,7 @@
   }
 
   #projectsPresentation {
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin-bottom: 0;
   }
 }

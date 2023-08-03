@@ -1,12 +1,5 @@
-:root {
-  --black: #181818;
-  --primary: #14213d;
-  --secondary: #fca311;
-  --third: #e5e5e5;
-}
-
 #profile {
-  height: 45vh;
+  height: 50vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -26,6 +19,7 @@
 }
 
 #profileP {
+  word-wrap: break-word;
   font-size: 1.3rem;
   font-weight: 500;
   margin: 0 2vw;

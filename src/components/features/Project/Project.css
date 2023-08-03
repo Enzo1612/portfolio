@@ -1,16 +1,9 @@
-:root {
-  --black: #181818;
-  --primary: #14213d;
-  --secondary: #fca311;
-  --third: #e5e5e5;
-}
-
 .projectContainers {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
+  /* height: 50vh; */
   margin: 10vh 4vw;
   background-color: var(--primary);
   border-radius: 5px;
@@ -44,6 +37,10 @@
 }
 
 .projectDescritptions {
+  line-height: 1.1rem;
+  word-wrap: break-word;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 1rem;
   font-weight: 500;
   margin: 2vh 2vw;
@@ -125,6 +122,9 @@
 }
 
 @media (max-width: 500px) {
+  .projectContainers {
+    margin-top: 50px;
+  }
   .projectDescritptions {
     font-size: 0.7rem;
   }

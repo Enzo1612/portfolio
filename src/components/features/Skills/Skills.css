@@ -1,13 +1,6 @@
-:root {
-  --black: #181818;
-  --primary: #14213d;
-  --secondary: #fca311;
-  --third: #e5e5e5;
-}
-
 #skillsContainer {
   width: 100vw;
-  height: 40vh;
+  height: 41vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

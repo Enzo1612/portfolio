@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { FaCopyright } from "react-icons/fa";
 import { AiFillPhone } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
@@ -25,8 +24,7 @@ function Footer() {
       </div>
 
       <div id="footerTextContainer">
-        <p id="footerP">Made By Nicaise Enzo</p>
-        <FaCopyright className="footerIcon" />
+        <p id="footerP">&copy; Made By Nicaise Enzo</p>
       </div>
     </div>
   );

@@ -1,28 +1,15 @@
-:root {
-  --black: #181818;
-  --primary: #14213d;
-  --secondary: #fca311;
-  --third: #e5e5e5;
-}
-
 #description {
-  margin-top: 15vh;
+  margin-top: 10vh;
   color: var(--third);
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background: linear-gradient(
-    0.5turn,
-    var(--black),
-    1%,
-    var(--primary),
-    96%,
-    var(--secondary)
-  );
-  animation: shadow 1s infinite;
+  background-image: url(./../../assets/firstPageBackground.svg);
+  /* background by SVGBackgrounds.com */
+  background-position: center;
+  background-size: cover;
 }
 
 @keyframes shadow {
@@ -37,6 +24,17 @@
     );
   }
 
+  33.33% {
+    background: linear-gradient(
+      0.5turn,
+      var(--black),
+      1%,
+      var(--primary),
+      96.33%,
+      var(--secondary)
+    );
+  }
+
   50% {
     background: linear-gradient(
       0.5turn,
@@ -44,6 +42,17 @@
       1%,
       var(--primary),
       96.5%,
+      var(--secondary)
+    );
+  }
+
+  66.66% {
+    background: linear-gradient(
+      0.5turn,
+      var(--black),
+      1%,
+      var(--primary),
+      96.33%,
       var(--secondary)
     );
   }
@@ -120,10 +129,11 @@
   right: 2vw;
   transform: translate(-50%, -50%);
   background-color: rgba(20, 33, 61, 0.5);
-  border-radius: 8px;
+  padding: 0.5vh;
+  border-radius: 50%;
   bottom: 5vh;
   height: 8vh;
-  width: 6vw;
+  width: 8vh;
   transition: 0.3s;
   cursor: pointer;
 }

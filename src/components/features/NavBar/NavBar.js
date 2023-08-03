@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import { TbLetterE } from "react-icons/tb";
-import { TbLetterN } from "react-icons/tb";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
 import { FaPen } from "react-icons/fa";
+import { AiOutlineCode } from "react-icons/ai";
 
 function NavBar() {
   let [menuState, setMenuState] = useState(false);
@@ -24,7 +23,6 @@ function NavBar() {
       top: 0,
       behavior: "smooth",
     });
-
     if (menuState === false) {
       document.getElementById("navbarUlsmall").style.display = "flex";
       setMenuState(true);
@@ -37,7 +35,7 @@ function NavBar() {
   const toggleMenuProfile = (e) => {
     e.preventDefault();
     window.scroll({
-      top: viewportHeight / 1.17,
+      top: document.getElementById("profile").offsetTop / 1.1,
       behavior: "smooth",
     });
 
@@ -53,7 +51,7 @@ function NavBar() {
   const toggleMenuProjects = (e) => {
     e.preventDefault();
     window.scroll({
-      top: viewportHeight * 1.7,
+      top: document.getElementById("projectsContainer").offsetTop / 1.05,
       behavior: "smooth",
     });
 
@@ -71,7 +69,7 @@ function NavBar() {
   const goProfile = (e) => {
     e.preventDefault();
     window.scroll({
-      top: viewportHeight / 1.17,
+      top: document.getElementById("profile").offsetTop / 1.1,
       behavior: "smooth",
     });
   };
@@ -79,7 +77,7 @@ function NavBar() {
   const goProjects = (e) => {
     e.preventDefault();
     window.scroll({
-      top: viewportHeight * 1.7,
+      top: viewportHeight * 1.81,
       behavior: "smooth",
     });
   };
@@ -95,8 +93,7 @@ function NavBar() {
   return (
     <div id="navbar">
       <div className="navbarIconContainer">
-        <TbLetterE className="navbarIcons" id="navbarE" />
-        <TbLetterN className="navbarIcons" id="navbarN" />
+        <AiOutlineCode className="navbarIcons" />
       </div>
       <ul id="navbarUl">
         <li className="navbarLi">
@@ -119,7 +116,9 @@ function NavBar() {
           </a>
         </li>
       </ul>
+
       {/* add the navbar li for small screen size */}
+
       <ul id="navbarUlsmall">
         <li className="navbarLi">
           <AiFillHome className="navbarLiIcons" />

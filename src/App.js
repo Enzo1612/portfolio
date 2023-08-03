@@ -1,11 +1,11 @@
-import Profile from "./components/Profile";
-import FirstPage from "./components/FirstPage";
-import NavBar from "./components/NavBar";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import Profile from "./components/features/Profile/Profile";
+import FirstPage from "./components/features/FirstPage/FirstPage";
+import NavBar from "./components/features/NavBar/NavBar";
+import Skills from "./components/features/Skills/Skills";
+import Projects from "./components/features/Projects/Projects";
+import Footer from "./components/features/Footer/Footer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div id="firstPage">
@@ -20,6 +20,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

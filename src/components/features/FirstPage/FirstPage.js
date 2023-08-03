@@ -4,12 +4,10 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import { AiOutlineArrowUp } from "react-icons/ai";
 
 function Description() {
-  const viewportHeight = window.innerHeight;
-
   const goProfile = (e) => {
     e.preventDefault();
     window.scroll({
-      top: viewportHeight / 1.17,
+      top: document.getElementById("profile").offsetTop / 1.1,
       behavior: "smooth",
     });
   };
@@ -21,6 +19,7 @@ function Description() {
       behavior: "smooth",
     });
   };
+
   return (
     <div id="description">
       <div id="firstPageText">
