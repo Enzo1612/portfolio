@@ -10,7 +10,14 @@ function Footer() {
       <div id="footerLeft">
         <div id="footerPhoneContainer">
           <AiFillPhone className="footerIcon" />
-          <p id="footerPhoneNumber">0767854587</p>
+          <a
+            href="tel:0767854587"
+            target="_blank"
+            rel="noreferrer"
+            id="footerPhoneNumber"
+          >
+            0767854587
+          </a>
         </div>
         <div id="footerEmailContainer">
           <AiFillMail className="footerIcon" />
