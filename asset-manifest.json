@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.74c9068c.css",
-    "main.js": "/portfolio/static/js/main.ce6f1c3b.js",
+    "main.css": "/portfolio/static/css/main.0d6b59a6.css",
+    "main.js": "/portfolio/static/js/main.949d27e5.js",
     "static/media/ipTracker3.png": "/portfolio/static/media/ipTracker3.57d09cf014243546c4df.png",
     "static/media/ipTracker1.png": "/portfolio/static/media/ipTracker1.8536a0ec592c11b0d7ff.png",
     "static/media/ipTracker2.png": "/portfolio/static/media/ipTracker2.ff7b78eb975cb1097a2c.png",
@@ -20,11 +20,11 @@
     "static/media/firstPageBackground.svg": "/portfolio/static/media/firstPageBackground.76138cc37db343f221cd.svg",
     "static/media/projectsBackground.svg": "/portfolio/static/media/projectsBackground.d9b56f90e6259dcd28df.svg",
     "index.html": "/portfolio/index.html",
-    "main.74c9068c.css.map": "/portfolio/static/css/main.74c9068c.css.map",
-    "main.ce6f1c3b.js.map": "/portfolio/static/js/main.ce6f1c3b.js.map"
+    "main.0d6b59a6.css.map": "/portfolio/static/css/main.0d6b59a6.css.map",
+    "main.949d27e5.js.map": "/portfolio/static/js/main.949d27e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.74c9068c.css",
-    "static/js/main.ce6f1c3b.js"
+    "static/css/main.0d6b59a6.css",
+    "static/js/main.949d27e5.js"
   ]
 }
