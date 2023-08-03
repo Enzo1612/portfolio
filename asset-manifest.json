@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b9789863.css",
-    "main.js": "/portfolio/static/js/main.566cf8dc.js",
+    "main.css": "/portfolio/static/css/main.5d4484a9.css",
+    "main.js": "/portfolio/static/js/main.baf8f6c4.js",
     "static/media/ipTracker3.png": "/portfolio/static/media/ipTracker3.57d09cf014243546c4df.png",
     "static/media/ipTracker1.png": "/portfolio/static/media/ipTracker1.8536a0ec592c11b0d7ff.png",
     "static/media/ipTracker2.png": "/portfolio/static/media/ipTracker2.ff7b78eb975cb1097a2c.png",
-    "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.fe2bba0f55be037319d3.png",
-    "static/media/portfolio3.png": "/portfolio/static/media/portfolio3.529218d99447944259d9.png",
-    "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.5a61bf6a75a05efdba73.png",
+    "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.b7156ea6623b59d58831.png",
     "static/media/countries1.png": "/portfolio/static/media/countries1.83e040816cc7ced1c618.png",
+    "static/media/portfolio3.png": "/portfolio/static/media/portfolio3.061187789e8683974c19.png",
+    "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.04ef6be33be31e57fe45.png",
     "static/media/quiz1.png": "/portfolio/static/media/quiz1.01ba78a55da5ef065199.png",
     "static/media/quiz3.png": "/portfolio/static/media/quiz3.6640d333ddf9644a849b.png",
     "static/media/quiz2.png": "/portfolio/static/media/quiz2.085483757f45d3a114e4.png",
@@ -17,14 +17,14 @@
     "static/media/countries2.png": "/portfolio/static/media/countries2.6ec290b32a6148c4006d.png",
     "static/media/hangmangame1.png": "/portfolio/static/media/hangmangame1.7d3a0027a31b99c66932.png",
     "static/media/hangmangame3.png": "/portfolio/static/media/hangmangame3.e249f7700670535c603d.png",
-    "static/media/firstPageBackground.svg": "/portfolio/static/media/firstPageBackground.99816caae974fceb99f8.svg",
-    "static/media/projectsBackground.svg": "/portfolio/static/media/projectsBackground.5aa164b0b0b7e4291233.svg",
+    "static/media/firstPageBackground.svg": "/portfolio/static/media/firstPageBackground.76138cc37db343f221cd.svg",
+    "static/media/projectsBackground.svg": "/portfolio/static/media/projectsBackground.d9b56f90e6259dcd28df.svg",
     "index.html": "/portfolio/index.html",
-    "main.b9789863.css.map": "/portfolio/static/css/main.b9789863.css.map",
-    "main.566cf8dc.js.map": "/portfolio/static/js/main.566cf8dc.js.map"
+    "main.5d4484a9.css.map": "/portfolio/static/css/main.5d4484a9.css.map",
+    "main.baf8f6c4.js.map": "/portfolio/static/js/main.baf8f6c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9789863.css",
-    "static/js/main.566cf8dc.js"
+    "static/css/main.5d4484a9.css",
+    "static/js/main.baf8f6c4.js"
   ]
 }
