@@ -1,4 +1,5 @@
 #description {
+  scroll-snap-align: start;
   margin-top: 10vh;
   color: var(--third);
   width: 100vw;

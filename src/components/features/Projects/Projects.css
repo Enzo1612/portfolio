@@ -1,4 +1,5 @@
 #projectsContainer {
+  scroll-snap-align: start;
   background-image: url(./../../assets/projectsBackground.svg);
   /*background by https://www.svgbackgrounds.com/*/
   color: var(--third);

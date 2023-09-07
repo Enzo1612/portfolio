@@ -4,6 +4,10 @@ import "./Projects.css";
 
 // IMPORT PROJECTS IMAGES
 
+import Cyberfit1 from "./../../assets/cyberfit/cyberfit1.png";
+import Cyberfit2 from "./../../assets/cyberfit/cyberfit2.png";
+import Cyberfit3 from "./../../assets/cyberfit/cyberfit3.png";
+
 import Hangmangame1 from "./../../assets/hangman/hangmangame1.png";
 import Hangmangame2 from "./../../assets/hangman/hangmangame2.png";
 import Hangmangame3 from "./../../assets/hangman/hangmangame3.png";
@@ -38,6 +42,14 @@ function Projects() {
           car je n'ai pas suivi de tutoriels pour les réaliser.
         </p>
       </div>
+      <Project
+        title="CyberFit"
+        projectUrl="https://enzo1612.github.io/hangManGame/"
+        url1={Cyberfit1}
+        url2={Cyberfit2}
+        url3={Cyberfit3}
+        description="J'ai développé un site pour une salle de sport fictive. Le principe est de présenté une salle de sport, de créer un nom, un logo,, des images et des services puis de les présenter. Sur ce site, j'ai travaillé comme sur un projet qui m'aurait été donné par un client. Ce dernier m'a permis de progresser sur l'expérience utilisateur et le design d'un site."
+      />
       <Project
         title="HangMan game"
         projectUrl="https://enzo1612.github.io/hangManGame/"
